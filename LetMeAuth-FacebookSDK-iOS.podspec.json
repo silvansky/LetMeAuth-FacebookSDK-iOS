@@ -23,8 +23,8 @@
     "LetMeAuth": [
       "~> 2.0"
     ],
-    "Facebook-iOS-SDK": [
-      "~> 3.21"
+    "FBSDKLoginKit": [
+      "~> 4.15.1"
     ]
   }
 }

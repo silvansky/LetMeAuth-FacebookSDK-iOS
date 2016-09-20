@@ -14,7 +14,7 @@
 @interface LMAFacebookSDKProvider ()
 
 @property (copy, nonatomic) NSDictionary *configuration;
-@property (strong, nonatomic) FBSession *session;
+@property (strong, nonatomic) FBSDKSession *session;
 
 - (void)didAuthenticateWithData:(NSDictionary *)data;
 - (void)didFailWithError:(NSError *)error;
